@@ -1,5 +1,5 @@
 # game.py
-
+import random
 print("Rock, Paper, Scissors, Shoot!")
 
 
@@ -11,11 +11,18 @@ if (user_choice == "rock") or (user_choice == "paper") or (user_choice == "sciss
     print("VALID. KEEP GOING")
 else:
     print("OOPS, invalid input. Please try again.")
-exit()
+    exit()
+
+
+valid_options = ["rock", "paper", "scissors"]
+computer_choice = random.choice(valid_options)
+
+print("Computer choice: ", computer_choice)
 
 
 
-# validate the input sch that only if it is one of the expected values will we 
+
+# validate the input such that only if it is one of the expected values will we 
 # ... continue with the rest of the program
 # ... otherwise well stop the program before it tries to do anything else
 # ... and well ask the user to run the program again
