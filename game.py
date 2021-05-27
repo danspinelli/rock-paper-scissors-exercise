@@ -19,7 +19,20 @@ computer_choice = random.choice(valid_options)
 
 print("Computer choice: ", computer_choice)
 
-
+if (user_choice == "rock" and computer_choice == "paper"):
+    print("Computer Wins")
+elif (user_choice == "paper" and computer_choice == "rock"):
+        print("User Wins")
+elif (user_choice == "scissors" and computer_choice == "rock"):
+         print("Computer Wins")
+elif (user_choice == "scissors" and computer_choice == "paper"):
+        print("User Wins")
+elif (user_choice == "rock" and computer_choice == "scissors"):
+         print("User Wins")
+elif (user_choice == "paper" and computer_choice == "scissors"):
+        print("Computer Wins")
+else:
+    print("Tie, Play Again")
 
 
 # validate the input such that only if it is one of the expected values will we 
