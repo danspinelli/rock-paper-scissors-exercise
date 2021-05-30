@@ -2,7 +2,7 @@
 
 ## Installation
 
-Clone or download this repo onto your local computer.
+Download this repo locally.
 
 Then navigate there from the command line (subsequent commands assume you are running them from the local repository's root directory):
 
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ### Configuring Environment Variables
 
-TODO: also tell someone how to use environment variables. Because the .gitignore file will be ignoring our .env file it won't be included in the repo, so each new person will need to create their own local .env file. So they/you should add a new ".env" file to the root directory of this repo, and place contents like the following inside:
+You will have to create your own local .env file. So you should add a new ".env" file to this repo, and put the following inside:
 
 
 ```
